@@ -1,4 +1,22 @@
 
+#menu {
+    position: fixed;
+    flex-direction: column;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 256px;
+    display: none;
+    z-index: 30;
+    transform: translateY(-100%);
+    transition: .5s;
+
+    &.show {
+        display: flex;
+        background-color: rgba(104, 0, 0, 0.925);
+        transform: translateY(0);
+    }
+}
 
 .trigger {
     position: relative;
@@ -16,7 +34,7 @@
     width: 30px;
     height: 4px;
     margin: 4px auto;
-    background-color: #960a0a;
+    background-color: red;
 }
 
 .menu-trigger {
@@ -25,7 +43,7 @@
     margin: 0;
     padding: 0;
     span {
-        background-color: #960a0a;
+        background-color: red;
     }
 }
 
@@ -50,26 +68,6 @@
     height: 4px;
     border-radius: 4px;
 }
-
-#menu {
-    position: fixed;
-    flex-direction: column;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 256px;
-    display: none;
-    z-index: 30;
-    transform: translateY(-100%);
-    transition: .5s;
-
-    &.show {
-        display: flex;
-        background-color: rgba(255, 0, 0, 0.925);
-        transform: translateY(0);
-    }
-}
-
 
 .logotype {
     animation: 7s linear 0s normal none infinite running logotype;

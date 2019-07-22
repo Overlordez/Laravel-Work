@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Allerta+Stencil|Hammersmith+One|Orbitron|Staatliches&display=swap);@import url(https://fonts.googleapis.com/css?family=Righteous&display=swap);@import url(https://fonts.googleapis.com/css?family=Russo+One&display=swap);@import url(https://fonts.googleapis.com/css?family=Fugaz+One&display=swap);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Allerta+Stencil|Hammersmith+One|Orbitron|Staatliches&display=swap);@import url(https://fonts.googleapis.com/css?family=Righteous&display=swap);@import url(https://fonts.googleapis.com/css?family=Russo+One&display=swap);@import url(https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap);@charset "UTF-8";
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -10672,7 +10672,7 @@ footer p {
 }
 
 p {
-  color: #960a0a;
+  color: red;
   font-size: 23px;
   font-family: "Orbitron", sans-serif;
 }
@@ -10689,14 +10689,14 @@ header {
 }
 
 h1 {
-  color: #960a0a;
+  color: red;
   text-align: center;
   font-size: 6.5rem;
-  font-family: "Fugaz One", cursive;
+  font-family: "Black Ops One", cursive;
 }
 
 h2 {
-  color: #960a0a;
+  color: red;
   text-align: center;
   font-family: "Righteous", cursive;
 }
@@ -10706,13 +10706,13 @@ ul {
   align-items: center;
   margin: 0;
   padding: 15px;
-  color: #960a0a;
-  background-color: #960a0a3f;
-  box-shadow: 0px 1px 5px 4px #960a0a;
+  color: red;
+  background-color: rgba(83, 2, 2, 0.432);
+  box-shadow: 0px 1px 5px 4px red;
 }
 
 li {
-  color: #960a0a;
+  color: red;
   padding: 0px 20px;
   font-size: 20px;
   transition: 0.25s linear;
@@ -10722,7 +10722,7 @@ li {
 }
 
 li:hover {
-  box-shadow: 1px 1px 1px 1px #960a0a;
+  box-shadow: 1px 1px 1px 1px red;
   transform: translateX(-7px);
   transform: rotateY(2);
 }
@@ -10731,11 +10731,11 @@ a {
   display: block;
   text-align: center;
   height: 70%;
-  color: #960a0a;
+  color: red;
 }
 
 a:hover {
-  color: #960a0a;
+  color: red;
   text-decoration: none;
 }
 
@@ -10744,7 +10744,7 @@ a:hover {
 }
 
 .logo {
-  color: #960a0a;
+  color: red;
   font-family: "Allerta Stencil", sans-serif;
   font-size: 45px;
 }
@@ -10753,6 +10753,25 @@ a:hover {
   max-width: 90%;
   margin: 0 auto;
   text-align: center;
+}
+
+#menu {
+  position: fixed;
+  flex-direction: column;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 256px;
+  display: none;
+  z-index: 30;
+  transform: translateY(-100%);
+  transition: 0.5s;
+}
+
+#menu.show {
+  display: flex;
+  background-color: rgba(104, 0, 0, 0.925);
+  transform: translateY(0);
 }
 
 .trigger {
@@ -10771,7 +10790,7 @@ a:hover {
   width: 30px;
   height: 4px;
   margin: 4px auto;
-  background-color: #960a0a;
+  background-color: red;
 }
 
 .menu-trigger {
@@ -10782,7 +10801,7 @@ a:hover {
 }
 
 .menu-trigger span {
-  background-color: #960a0a;
+  background-color: red;
 }
 
 .menu-trigger,
@@ -10805,25 +10824,6 @@ a:hover {
   width: 100%;
   height: 4px;
   border-radius: 4px;
-}
-
-#menu {
-  position: fixed;
-  flex-direction: column;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 256px;
-  display: none;
-  z-index: 30;
-  transform: translateY(-100%);
-  transition: 0.5s;
-}
-
-#menu.show {
-  display: flex;
-  background-color: rgba(255, 0, 0, 0.925);
-  transform: translateY(0);
 }
 
 .logotype {
@@ -11049,6 +11049,10 @@ a:hover {
   .licens {
     font-size: 18px;
   }
+
+  b {
+    font-size: 23px;
+  }
 }
 
 @media (max-width: 375px) {
@@ -11081,6 +11085,10 @@ a:hover {
   .license {
     font-size: 17px;
   }
+
+  b {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 1053px) {
@@ -11095,7 +11103,7 @@ a:hover {
   }
 
   h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 
   p {
@@ -11104,6 +11112,10 @@ a:hover {
 
   .licens {
     font-size: 13px;
+  }
+
+  b {
+    font-size: 18px;
   }
 }
 
@@ -11126,6 +11138,10 @@ a:hover {
 
   .licens {
     font-size: 10px;
+  }
+
+  b {
+    font-size: 16px;
   }
 }
 

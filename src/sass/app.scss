@@ -2,8 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Allerta+Stencil|Bungee+Outline|Hammersmith+One|Orbitron|Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap');
 
 body {
     -webkit-font-smoothing: antialiased;
@@ -40,11 +39,11 @@ footer {
 
 
 h1 {
-    color: #960a0a;
+    color: red;
     text-align: center;
     font-size: 6.5rem;
-    font-family: 'Bungee Outline', cursive;
-    text-shadow: 0px 0px 17px red, 5px 4px 1px rgba(0, 0, 0, 0.5);
+    font-family: 'Black Ops One', cursive;
+    
 }
 
 .desription {
@@ -58,7 +57,7 @@ h1 {
 }
 
 p {
-    color: #960a0a;
+    color: red;
     font-size: 23px;
     font-family: 'Orbitron', sans-serif;
 }
@@ -79,14 +78,14 @@ ul {
     align-items: center;
     margin: 0;
     padding: 15px;
-    color: #960a0a;
-    background-color: #960a0a3f;
-    -webkit-box-shadow: 0px 1px 5px 4px #960a0a;
-    box-shadow: 0px 1px 5px 4px #960a0a;
+    color: red;
+    background-color: rgba(83, 2, 2, 0.432);
+    -webkit-box-shadow: 0px 1px 5px 4px red;
+    box-shadow: 0px 1px 5px 4px red;
 }
 
 li {
-    color: #960a0a;
+    color: red;
     padding: 0px 20px;
     font-size: 20px;
     transition: 0.25s linear;
@@ -95,7 +94,7 @@ li {
     margin-bottom: 10px;
 
     &:hover {
-        box-shadow: 1px 1px 1px 1px #960a0a;
+        box-shadow: 1px 1px 1px 1px red;
         -webkit-transform: translateX(-7px);
         transform: translateX(-7px);
         transform: rotateY(2);
@@ -106,10 +105,10 @@ a {
     display: block;
     text-align: center;
     height: 70%;
-    color: #960a0a;
+    color: red;
 
     &:hover {
-        color: #960a0a;
+        color: red;
         text-decoration: none;
     }
 }
@@ -124,7 +123,7 @@ a {
 }
 
 .logo {
-    color: #960a0a;
+    color: red;
     font-family: 'Allerta Stencil', sans-serif;
     font-size: 45px;
 }
@@ -138,8 +137,10 @@ a {
 .card {
     background-color: transparent;
     padding: 50px;
-    border-bottom: 5px solid #960a0a;
-    border-top: 5px solid #960a0a;
+    border-bottom: 5px solid red;
+    border-top: 5px solid red;
+    border-left: none;
+    border-right: none;
 }
 
 .it_team {
@@ -171,3 +172,6 @@ a {
 
 @import "menu-key.scss";
 @import "media.scss";
+
+
+

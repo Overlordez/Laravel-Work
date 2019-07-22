@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Allerta+Stencil|Bungee+Outline|Hammersmith+One|Orbitron|Staatliches&display=swap);@import url(https://fonts.googleapis.com/css?family=Righteous&display=swap);@import url(https://fonts.googleapis.com/css?family=Russo+One&display=swap);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Allerta+Stencil|Bungee+Outline|Hammersmith+One|Orbitron|Staatliches&display=swap);@import url(https://fonts.googleapis.com/css?family=Righteous&display=swap);@import url(https://fonts.googleapis.com/css?family=Russo+One&display=swap);@import url(https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap);@charset "UTF-8";
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -10677,11 +10677,10 @@ footer p {
 }
 
 h1 {
-  color: #960a0a;
+  color: red;
   text-align: center;
   font-size: 6.5rem;
-  font-family: "Bungee Outline", cursive;
-  text-shadow: 0px 0px 17px red, 5px 4px 1px rgba(0, 0, 0, 0.5);
+  font-family: "Black Ops One", cursive;
 }
 
 .desription {
@@ -10695,7 +10694,7 @@ h1 {
 }
 
 p {
-  color: #960a0a;
+  color: red;
   font-size: 23px;
   font-family: "Orbitron", sans-serif;
 }
@@ -10716,13 +10715,13 @@ ul {
   align-items: center;
   margin: 0;
   padding: 15px;
-  color: #960a0a;
-  background-color: #960a0a3f;
-  box-shadow: 0px 1px 5px 4px #960a0a;
+  color: red;
+  background-color: rgba(83, 2, 2, 0.432);
+  box-shadow: 0px 1px 5px 4px red;
 }
 
 li {
-  color: #960a0a;
+  color: red;
   padding: 0px 20px;
   font-size: 20px;
   transition: 0.25s linear;
@@ -10732,7 +10731,7 @@ li {
 }
 
 li:hover {
-  box-shadow: 1px 1px 1px 1px #960a0a;
+  box-shadow: 1px 1px 1px 1px red;
   transform: translateX(-7px);
   transform: rotateY(2);
 }
@@ -10741,11 +10740,11 @@ a {
   display: block;
   text-align: center;
   height: 70%;
-  color: #960a0a;
+  color: red;
 }
 
 a:hover {
-  color: #960a0a;
+  color: red;
   text-decoration: none;
 }
 
@@ -10758,7 +10757,7 @@ a:hover {
 }
 
 .logo {
-  color: #960a0a;
+  color: red;
   font-family: "Allerta Stencil", sans-serif;
   font-size: 45px;
 }
@@ -10772,8 +10771,10 @@ a:hover {
 .card {
   background-color: transparent;
   padding: 50px;
-  border-bottom: 5px solid #960a0a;
-  border-top: 5px solid #960a0a;
+  border-bottom: 5px solid red;
+  border-top: 5px solid red;
+  border-left: none;
+  border-right: none;
 }
 
 .it_team {
@@ -10802,6 +10803,25 @@ a:hover {
   height: 50px;
 }
 
+#menu {
+  position: fixed;
+  flex-direction: column;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 256px;
+  display: none;
+  z-index: 30;
+  transform: translateY(-100%);
+  transition: 0.5s;
+}
+
+#menu.show {
+  display: flex;
+  background-color: rgba(104, 0, 0, 0.925);
+  transform: translateY(0);
+}
+
 .trigger {
   position: relative;
   display: block;
@@ -10818,7 +10838,7 @@ a:hover {
   width: 30px;
   height: 4px;
   margin: 4px auto;
-  background-color: #960a0a;
+  background-color: red;
 }
 
 .menu-trigger {
@@ -10829,7 +10849,7 @@ a:hover {
 }
 
 .menu-trigger span {
-  background-color: #960a0a;
+  background-color: red;
 }
 
 .menu-trigger,
@@ -10852,25 +10872,6 @@ a:hover {
   width: 100%;
   height: 4px;
   border-radius: 4px;
-}
-
-#menu {
-  position: fixed;
-  flex-direction: column;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 256px;
-  display: none;
-  z-index: 30;
-  transform: translateY(-100%);
-  transition: 0.5s;
-}
-
-#menu.show {
-  display: flex;
-  background-color: rgba(255, 0, 0, 0.925);
-  transform: translateY(0);
 }
 
 .logotype {
@@ -11096,6 +11097,10 @@ a:hover {
   .licens {
     font-size: 18px;
   }
+
+  b {
+    font-size: 23px;
+  }
 }
 
 @media (max-width: 375px) {
@@ -11128,6 +11133,10 @@ a:hover {
   .license {
     font-size: 17px;
   }
+
+  b {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 1053px) {
@@ -11142,7 +11151,7 @@ a:hover {
   }
 
   h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 
   p {
@@ -11151,6 +11160,10 @@ a:hover {
 
   .licens {
     font-size: 13px;
+  }
+
+  b {
+    font-size: 18px;
   }
 }
 
@@ -11173,6 +11186,10 @@ a:hover {
 
   .licens {
     font-size: 10px;
+  }
+
+  b {
+    font-size: 16px;
   }
 }
 
