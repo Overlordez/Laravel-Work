@@ -13,9 +13,9 @@ let mix = require('laravel-mix');
 
 mix.js('src/js/app.js', 'dist/')
    .sass('src/sass/app.scss', 'dist/')
-   .setPublicPath('dist/');
-
-mix.sass('src/sass/downl.scss', 'dist/app1.css')   
+   .setPublicPath('dist/')
+   .sass('src/sass/downl.scss', 'dist/app1.css')
+   .sass('src/sass/snews.scss', 'dist/app2.css')
 
 
 // Full API

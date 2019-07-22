@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Allerta+Stencil|Bungee+Outline|Hammersmith+One|Orbitron|Staatliches&display=swap);@import url(https://fonts.googleapis.com/css?family=Righteous&display=swap);@import url(https://fonts.googleapis.com/css?family=Russo+One&display=swap);@import url(https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Allerta+Stencil|Bungee+Outline|Hammersmith+One|Staatliches&display=swap);@import url(https://fonts.googleapis.com/css?family=Righteous&display=swap);@import url(https://fonts.googleapis.com/css?family=Russo+One&display=swap);@import url(https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap);@import url(https://fonts.googleapis.com/css?family=Quantico&display=swap);@charset "UTF-8";
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -10696,7 +10696,7 @@ h1 {
 p {
   color: red;
   font-size: 23px;
-  font-family: "Orbitron", sans-serif;
+  font-family: "Quantico", sans-serif;
 }
 
 header {
@@ -11083,7 +11083,7 @@ a:hover {
   }
 
   .card-text {
-    font-size: 17px;
+    font-size: 15px;
   }
 
   h1 {
@@ -11100,6 +11100,10 @@ a:hover {
 
   b {
     font-size: 23px;
+  }
+
+  h3 {
+    font-size: 1.5rem;
   }
 }
 
@@ -11137,6 +11141,10 @@ a:hover {
   b {
     font-size: 20px;
   }
+
+  h3 {
+    font-size: 1.35rem;
+  }
 }
 
 @media (max-width: 1053px) {
@@ -11165,6 +11173,10 @@ a:hover {
   b {
     font-size: 18px;
   }
+
+  h3 {
+    font-size: 1.2rem;
+  }
 }
 
 @media (max-width: 320px) {
@@ -11177,7 +11189,7 @@ a:hover {
   }
 
   .card-text {
-    font-size: 13px;
+    font-size: 10px;
   }
 
   p {
@@ -11190,6 +11202,10 @@ a:hover {
 
   b {
     font-size: 16px;
+  }
+
+  h3 {
+    font-size: 1.1rem;
   }
 }
 

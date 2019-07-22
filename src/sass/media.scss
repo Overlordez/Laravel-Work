@@ -31,7 +31,7 @@
     }
 
     .card-text {
-        font-size: 17px;
+        font-size: 15px;
     }
 
     h1 {
@@ -48,6 +48,10 @@
 
     b{
         font-size: 23px;
+    }
+
+    h3{
+        font-size: 1.5rem;
     }
 }
 
@@ -85,6 +89,10 @@
     b{
         font-size: 20px;
     }
+
+    h3{
+        font-size: 1.35rem;
+    }
 }
 
 @media(max-width: 1053px) {
@@ -113,6 +121,10 @@
     b{
         font-size: 18px;
     }
+
+    h3{
+        font-size: 1.20rem;
+    }
 }
 
 @media(max-width: 320px) {
@@ -125,7 +137,7 @@
     }
 
     .card-text {
-        font-size: 13px;
+        font-size: 10px;
     }
 
     p {
@@ -138,6 +150,11 @@
 
     b{
         font-size: 16px;
+    }
+
+    h3{
+        font-size: 1.1rem;
+
     }
 }
 

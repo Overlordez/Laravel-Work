@@ -126,16 +126,28 @@ function open() {
 
 /***/ }),
 
+/***/ "./src/sass/snews.scss":
+/*!*****************************!*\
+  !*** ./src/sass/snews.scss ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ 0:
-/*!***********************************************************************!*\
-  !*** multi ./src/js/app.js ./src/sass/app.scss ./src/sass/downl.scss ***!
-  \***********************************************************************/
+/*!*********************************************************************************************!*\
+  !*** multi ./src/js/app.js ./src/sass/app.scss ./src/sass/downl.scss ./src/sass/snews.scss ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! /Users/overlord/Desktop/learn-laravel/src/js/app.js */"./src/js/app.js");
 __webpack_require__(/*! /Users/overlord/Desktop/learn-laravel/src/sass/app.scss */"./src/sass/app.scss");
-module.exports = __webpack_require__(/*! /Users/overlord/Desktop/learn-laravel/src/sass/downl.scss */"./src/sass/downl.scss");
+__webpack_require__(/*! /Users/overlord/Desktop/learn-laravel/src/sass/downl.scss */"./src/sass/downl.scss");
+module.exports = __webpack_require__(/*! /Users/overlord/Desktop/learn-laravel/src/sass/snews.scss */"./src/sass/snews.scss");
 
 
 /***/ })
