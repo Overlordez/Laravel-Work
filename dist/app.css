@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Allerta+Stencil|Bungee+Outline|Hammersmith+One|Orbitron|Staatliches&display=swap);@import url(https://fonts.googleapis.com/css?family=Righteous&display=swap);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Allerta+Stencil|Bungee+Outline|Hammersmith+One|Orbitron|Staatliches&display=swap);@import url(https://fonts.googleapis.com/css?family=Righteous&display=swap);@import url(https://fonts.googleapis.com/css?family=Russo+One&display=swap);@charset "UTF-8";
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -10670,8 +10670,11 @@ footer {
   width: 100%;
   height: 80px;
   text-align: center;
-  color: #960a0a;
   padding-top: 40px;
+}
+
+footer p {
+  font-family: "Russo One", sans-serif;
 }
 
 h1 {
@@ -10686,6 +10689,10 @@ h1 {
   max-width: 90%;
   margin: 0 auto;
   text-align: center;
+}
+
+.licens {
+  font-size: 20px;
 }
 
 p {
@@ -11080,7 +11087,7 @@ a:hover {
   }
 
   .card-text {
-    font-size: 20px;
+    font-size: 17px;
   }
 
   h1 {
@@ -11090,11 +11097,9 @@ a:hover {
   p {
     font-size: 20px;
   }
-}
 
-@media (max-width: 320px) {
-  .card-text {
-    font-size: 13px;
+  .licens {
+    font-size: 18px;
   }
 }
 
@@ -11114,10 +11119,18 @@ a:hover {
   .logo {
     font-size: 40px;
   }
+
+  .licens {
+    font-size: 18px;
+  }
 }
 
-@media screen and (max-width: 600) {
+@media (max-width: 600) {
   p {
+    font-size: 17px;
+  }
+
+  .license {
     font-size: 17px;
   }
 }
@@ -11132,23 +11145,17 @@ a:hover {
   .logo {
     font-size: 20px;
   }
-}
 
-@media (max-width: 470px) {
   h1 {
     font-size: 3.5rem;
   }
-}
 
-@media (max-width: 470px) {
   p {
     font-size: 16;
   }
-}
 
-@media (max-width: 320px) {
-  p {
-    font-size: 15px;
+  .licens {
+    font-size: 13px;
   }
 }
 
@@ -11159,6 +11166,18 @@ a:hover {
 
   .logo {
     font-size: 16px;
+  }
+
+  .card-text {
+    font-size: 13px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .licens {
+    font-size: 10px;
   }
 }
 
