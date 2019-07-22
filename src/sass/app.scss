@@ -2,8 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Allerta+Stencil|Bungee+Outline|Hammersmith+One|Orbitron|Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
-@import "menu-key.scss";
-@import "media.scss";
+
 
 
 body {
@@ -169,3 +168,6 @@ a {
 .nav {
     height: 50px;
 }
+
+@import "menu-key.scss";
+@import "media.scss";

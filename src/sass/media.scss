@@ -1,4 +1,21 @@
 
+@media (min-width:991px) {
+    #menu {
+        transform: translateY(0);
+        transition: 1s;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        height: auto;
+        top: auto;
+        right: auto;
+    }
+
+    .menu-trigger {
+        display: none;
+    }
+}
+
 @media (max-width:991px) {
     .logotype {
         height: 70;
