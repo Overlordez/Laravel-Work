@@ -10644,159 +10644,13 @@ a.text-dark:focus {
   }
 }
 
-body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: black;
-  position: relative;
-  overflow-x: hidden;
-}
-
-section {
-  position: relative;
-  overflow: hidden;
-  padding-top: 55px;
-}
-
-.wrapper {
-  position: relative;
-  min-height: 100%;
-}
-
-footer {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 80px;
-  text-align: center;
-  padding-top: 40px;
-}
-
-footer p {
-  font-family: "Russo One", sans-serif;
-}
-
-h1 {
-  color: #960a0a;
-  text-align: center;
-  font-size: 6.5rem;
-  font-family: "Bungee Outline", cursive;
-  text-shadow: 0px 0px 17px red, 5px 4px 1px rgba(0, 0, 0, 0.5);
-}
-
-.desription {
-  max-width: 90%;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.licens {
-  font-size: 20px;
-}
-
-p {
-  color: #960a0a;
-  font-size: 23px;
-  font-family: "Orbitron", sans-serif;
-}
-
-header {
-  display: flex;
-  align-items: center;
-  background-color: transparent;
-  position: relative;
-  width: 100%;
-  height: 100px;
-  justify-content: space-around;
-  z-index: 10000;
-}
-
-ul {
-  list-style: none;
-  align-items: center;
+.menu-trigger {
   margin: 0;
-  padding: 15px;
-  color: #960a0a;
-  background-color: #960a0a3f;
-  box-shadow: 0px 1px 5px 4px #960a0a;
+  padding: 0;
 }
 
-li {
-  color: #960a0a;
-  padding: 0px 20px;
-  font-size: 20px;
-  transition: 0.25s linear;
-  line-height: 50px;
-  font-family: "Hammersmith One", sans-serif;
-  margin-bottom: 10px;
-}
-
-li:hover {
-  box-shadow: 1px 1px 1px 1px #960a0a;
-  transform: translateX(-7px);
-  transform: rotateY(2);
-}
-
-a {
-  display: block;
-  text-align: center;
-  height: 70%;
-  color: #960a0a;
-}
-
-a:hover {
-  color: #960a0a;
-  text-decoration: none;
-}
-
-.text-logo {
-  font-family: "Allerta Stencil", sans-serif;
-}
-
-.prof {
-  text-align: center;
-}
-
-.logo {
-  color: #960a0a;
-  font-family: "Allerta Stencil", sans-serif;
-  font-size: 45px;
-}
-
-.card-img-top {
-  width: 100%;
-  border-top-left-radius: calc(.25rem - 1px);
-  border-top-right-radius: calc(.25rem - 1px);
-}
-
-.card {
-  background-color: transparent;
-  padding: 50px;
-  border-bottom: 5px solid #960a0a;
-  border-top: 5px solid #960a0a;
-}
-
-.it_team {
-  padding: 10px;
-  padding-bottom: 90px;
-}
-
-.card-text {
-  font-size: 26px;
-  font-family: "Staatliches", cursive;
-}
-
-.image_photo {
-  width: 100%;
-}
-
-.quote {
-  text-align: center;
-  padding: 55px;
-  font-family: "Righteous", cursive;
-  color: darksalmon;
-  text-shadow: 0 0 10px red;
+.menu-trigger span {
+  background-color: #960a0a;
 }
 
 .trigger {
@@ -10844,19 +10698,6 @@ a:hover {
   height: 4px;
   background-color: #fff;
   border-radius: 4px;
-}
-
-.nav {
-  height: 50px;
-}
-
-.menu-trigger {
-  margin: 0;
-  padding: 0;
-}
-
-.menu-trigger span {
-  background-color: #960a0a;
 }
 
 #menu {
@@ -11185,5 +11026,163 @@ a:hover {
   .image_photo {
     width: 100%;
   }
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  position: relative;
+  overflow-x: hidden;
+}
+
+section {
+  position: relative;
+  overflow: hidden;
+  padding-top: 55px;
+}
+
+.wrapper {
+  position: relative;
+  min-height: 100%;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+footer p {
+  font-family: "Russo One", sans-serif;
+}
+
+h1 {
+  color: #960a0a;
+  text-align: center;
+  font-size: 6.5rem;
+  font-family: "Bungee Outline", cursive;
+  text-shadow: 0px 0px 17px red, 5px 4px 1px rgba(0, 0, 0, 0.5);
+}
+
+.desription {
+  max-width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.licens {
+  font-size: 20px;
+}
+
+p {
+  color: #960a0a;
+  font-size: 23px;
+  font-family: "Orbitron", sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  position: relative;
+  width: 100%;
+  height: 100px;
+  justify-content: space-around;
+  z-index: 10000;
+}
+
+ul {
+  list-style: none;
+  align-items: center;
+  margin: 0;
+  padding: 15px;
+  color: #960a0a;
+  background-color: #960a0a3f;
+  box-shadow: 0px 1px 5px 4px #960a0a;
+}
+
+li {
+  color: #960a0a;
+  padding: 0px 20px;
+  font-size: 20px;
+  transition: 0.25s linear;
+  line-height: 50px;
+  font-family: "Hammersmith One", sans-serif;
+  margin-bottom: 10px;
+}
+
+li:hover {
+  box-shadow: 1px 1px 1px 1px #960a0a;
+  transform: translateX(-7px);
+  transform: rotateY(2);
+}
+
+a {
+  display: block;
+  text-align: center;
+  height: 70%;
+  color: #960a0a;
+}
+
+a:hover {
+  color: #960a0a;
+  text-decoration: none;
+}
+
+.text-logo {
+  font-family: "Allerta Stencil", sans-serif;
+}
+
+.prof {
+  text-align: center;
+}
+
+.logo {
+  color: #960a0a;
+  font-family: "Allerta Stencil", sans-serif;
+  font-size: 45px;
+}
+
+.card-img-top {
+  width: 100%;
+  border-top-left-radius: calc(.25rem - 1px);
+  border-top-right-radius: calc(.25rem - 1px);
+}
+
+.card {
+  background-color: transparent;
+  padding: 50px;
+  border-bottom: 5px solid #960a0a;
+  border-top: 5px solid #960a0a;
+}
+
+.it_team {
+  padding: 10px;
+  padding-bottom: 90px;
+}
+
+.card-text {
+  font-size: 26px;
+  font-family: "Staatliches", cursive;
+}
+
+.image_photo {
+  width: 100%;
+}
+
+.quote {
+  text-align: center;
+  padding: 55px;
+  font-family: "Righteous", cursive;
+  color: darksalmon;
+  text-shadow: 0 0 10px red;
+}
+
+.nav {
+  height: 50px;
 }
 
