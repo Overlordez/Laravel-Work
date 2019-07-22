@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Allerta+Stencil|Bungee+Outline|Hammersmith+One|Orbitron|Staatliches&display=swap);@import url(https://fonts.googleapis.com/css?family=Righteous&display=swap);@import url(https://fonts.googleapis.com/css?family=Russo+One&display=swap);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Allerta+Stencil|Hammersmith+One|Orbitron|Staatliches&display=swap);@import url(https://fonts.googleapis.com/css?family=Righteous&display=swap);@import url(https://fonts.googleapis.com/css?family=Russo+One&display=swap);@import url(https://fonts.googleapis.com/css?family=Fugaz+One&display=swap);@charset "UTF-8";
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -10658,11 +10658,6 @@ section {
   padding-top: 55px;
 }
 
-.wrapper {
-  position: relative;
-  min-height: 100%;
-}
-
 footer {
   left: 0;
   bottom: 0;
@@ -10674,24 +10669,6 @@ footer {
 
 footer p {
   font-family: "Russo One", sans-serif;
-}
-
-h1 {
-  color: #960a0a;
-  text-align: center;
-  font-size: 6.5rem;
-  font-family: "Bungee Outline", cursive;
-  text-shadow: 0px 0px 17px red, 5px 4px 1px rgba(0, 0, 0, 0.5);
-}
-
-.desription {
-  max-width: 90%;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.licens {
-  font-size: 20px;
 }
 
 p {
@@ -10709,6 +10686,19 @@ header {
   height: 100px;
   justify-content: space-around;
   z-index: 10000;
+}
+
+h1 {
+  color: #960a0a;
+  text-align: center;
+  font-size: 6.5rem;
+  font-family: "Fugaz One", cursive;
+}
+
+h2 {
+  color: #960a0a;
+  text-align: center;
+  font-family: "Righteous", cursive;
 }
 
 ul {
@@ -10753,53 +10743,16 @@ a:hover {
   font-family: "Allerta Stencil", sans-serif;
 }
 
-.prof {
-  text-align: center;
-}
-
 .logo {
   color: #960a0a;
   font-family: "Allerta Stencil", sans-serif;
   font-size: 45px;
 }
 
-.card-img-top {
-  width: 100%;
-  border-top-left-radius: calc(.25rem - 1px);
-  border-top-right-radius: calc(.25rem - 1px);
-}
-
-.card {
-  background-color: transparent;
-  padding: 50px;
-  border-bottom: 5px solid #960a0a;
-  border-top: 5px solid #960a0a;
-}
-
-.it_team {
-  padding: 10px;
-  padding-bottom: 90px;
-}
-
-.card-text {
-  font-size: 26px;
-  font-family: "Staatliches", cursive;
-}
-
-.image_photo {
-  width: 100%;
-}
-
-.quote {
+.desription {
+  max-width: 90%;
+  margin: 0 auto;
   text-align: center;
-  padding: 55px;
-  font-family: "Righteous", cursive;
-  color: darksalmon;
-  text-shadow: 0 0 10px red;
-}
-
-.nav {
-  height: 50px;
 }
 
 .trigger {

@@ -1,11 +1,4 @@
 
-.menu-trigger {
-    margin: 0;
-    padding: 0;
-    span {
-        background-color: #960a0a;
-    }
-}
 
 .trigger {
     position: relative;
@@ -29,6 +22,11 @@
 .menu-trigger {
     margin-right: 70px;
     margin-bottom: 50px;
+    margin: 0;
+    padding: 0;
+    span {
+        background-color: #960a0a;
+    }
 }
 
 .menu-trigger,
