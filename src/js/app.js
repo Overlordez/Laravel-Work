@@ -1,3 +1,5 @@
+//JS function for keyframe and dropdown menu
+
 document.getElementById("trigger").onclick = function() {
     open()
   };
@@ -5,4 +7,5 @@ document.getElementById("trigger").onclick = function() {
   function open() {
     document.getElementById("menu").classList.toggle("show");
     document.getElementById("trigger").classList.toggle("active");
-  }
+  };
+
