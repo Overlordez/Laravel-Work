@@ -10778,46 +10778,53 @@ a:hover {
   font-family: "Hammersmith One", sans-serif;
 }
 
-.wrapper {
-  position: relative;
-  min-height: 100%;
+/* Style the tab */
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: space-around;
 }
 
-.licens {
-  font-size: 20px;
+/* Style the buttons that are used to open the tab content */
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
 }
 
-.card-img-top {
-  width: 100%;
-  border-top-left-radius: calc(.25rem - 1px);
-  border-top-right-radius: calc(.25rem - 1px);
+/* Change background color of buttons on hover */
+
+.tab button:hover {
+  background-color: #ddd;
 }
 
-.card {
-  background-color: transparent;
-  padding: 50px;
-  border-bottom: 5px solid black;
-  border-top: 5px solid black;
-  border-left: none;
-  border-right: none;
+/* Style the tab content */
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
 }
 
-.it_team {
-  padding: 10px;
-  padding-bottom: 90px;
+.tabcontent {
+  -webkit-animation: fadeEffect 1s;
+          animation: fadeEffect 1s;
+  /* Fading effect takes 1 second */
 }
 
-.card-text {
-  font-size: 26px;
-  font-family: "Staatliches", cursive;
-}
-
-.image_photo {
-  width: 100%;
-}
-
-.nav {
-  height: 50px;
+.topright {
+  float: right;
+  cursor: pointer;
+  font-size: 28px;
 }
 
 @media (min-width: 991px) {

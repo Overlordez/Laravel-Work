@@ -1,6 +1,4 @@
-@import "basic_styles.scss";
-
-
+@import "./src/sass/basic/basic_styles.scss";
 .card{
     width: 80%;
     background-color: transparent;
@@ -8,6 +6,8 @@
     padding-bottom: 100px;
 }
 
-@import "menu-key.scss";
-@import "media.scss";
+
+@import "./src/sass/media/media.scss";
+@import "./src/sass/key/menu-key.scss";
+
 

@@ -53,6 +53,10 @@
     h3{
         font-size: 1.5rem;
     }
+
+    .tab{
+        display: grid;
+    }
 }
 
 @media(max-width: 375px) {
@@ -93,6 +97,10 @@
     h3{
         font-size: 1.35rem;
     }
+
+    .tab{
+        display: grid;
+    }
 }
 
 @media(max-width: 1053px) {
@@ -125,6 +133,10 @@
     h3{
         font-size: 1.20rem;
     }
+    
+    .tab{
+        display: grid;
+    }
 }
 
 @media(max-width: 320px) {
@@ -156,6 +168,10 @@
         font-size: 1.1rem;
 
     }
+
+    .tab{
+        display: grid;
+    }
 }
 
 @media(max-width: 576px) {
@@ -163,4 +179,6 @@
         width: 100%;
     }
 }
+
+
 
