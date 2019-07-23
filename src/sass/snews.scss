@@ -1,13 +1,15 @@
-@import "./src/sass/basic/basic_styles.scss";
-.card{
-    width: 80%;
+
+.card-news{
     background-color: transparent;
     border: none;
     padding-bottom: 100px;
+
+    @media (min-width:576px) {
+        width: 80%;
+    }
 }
 
 
-@import "./src/sass/media/media.scss";
-@import "./src/sass/key/menu-key.scss";
+
 
 

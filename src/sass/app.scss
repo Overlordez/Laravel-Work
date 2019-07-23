@@ -1,4 +1,8 @@
 @import "./src/sass/basic/basic_styles.scss";
+@import "./src/sass/key/menu-key.scss";
+@import "./src/sass/netw.scss";
+
+
 .wrapper {
     position: relative;
     min-height: 100%;
@@ -43,9 +47,6 @@
 }
 
 
+
 @import "./src/sass/media/media.scss";
-@import "./src/sass/key/menu-key.scss";
-
-
-
-
+@import "./src/sass/snews.scss";
