@@ -1,6 +1,5 @@
 @import "basic_styles.scss";
-@import "menu-key.scss";
-@import "media.scss";
+
 
 .wrapper {
     position: relative;
@@ -44,6 +43,9 @@
 .nav {
     height: 50px;
 }
+
+@import "menu-key.scss";
+@import "media.scss";
 
 
 
