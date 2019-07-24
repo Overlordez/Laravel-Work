@@ -1,52 +1,6 @@
 @import "./src/sass/basic/basic_styles.scss";
-@import "./src/sass/key/menu-key.scss";
+@import "./home-page.scss";
 @import "./src/sass/netw.scss";
-
-
-.wrapper {
-    position: relative;
-    min-height: 100%;
-}
-
-.licens {
-    font-size: 20px;
-}
-
-.card-img-top {
-    width: 100%;
-    border-top-left-radius: calc(.25rem - 1px);
-    border-top-right-radius: calc(.25rem - 1px);
-}
-
-.card {
-    background-color: transparent;
-    padding: 50px;
-    border-bottom: 5px solid black;
-    border-top: 5px solid black;
-    border-left: none;
-    border-right: none;
-}
-
-.it_team {
-    padding: 10px;
-    padding-bottom: 90px;
-}
-
-
-.card-text {
-    font-size: 26px;
-    font-family: 'Staatliches', cursive;
-}
-
-.image_photo {
-    width: 100%;
-}
-
-.nav {
-    height: 50px;
-}
-
-
-
+@import "./src/sass/key/menu-key.scss";
 @import "./src/sass/media/media.scss";
 @import "./src/sass/snews.scss";

@@ -1,4 +1,20 @@
 //Мedia for responsible site.
+
+@media(max-width: 1156px) {
+    .logo {
+        font-size: 40px;
+    }
+
+    .licens {
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 1053px) {
+    .logo {
+        font-size: 30px;
+    }
+}
      
 @media (min-width:991px) {
     #menu {
@@ -19,7 +35,7 @@
 
 @media (max-width:991px) {
     .logotype {
-        height: 70;
+        height: 60;
     }
 
     .logo {
@@ -31,7 +47,7 @@
     }
 
     .card-text {
-        font-size: 15px;
+        font-size: 17px;
     }
 
     h1 {
@@ -57,27 +73,9 @@
     .tab{
         display: grid;
     }
-}
 
-@media(max-width: 375px) {
-    .image_photo {
-        width: 110%;
-    }
-}
-
-@media(max-width: 414px) {
-    .image_photo {
-        width: 110%;
-    }
-}
-
-@media(max-width: 1156px) {
-    .logo {
-        font-size: 40px;
-    }
-
-    .licens {
-        font-size: 18px;
+    .tab{
+        height: 50%;
     }
 }
 
@@ -103,9 +101,9 @@
     }
 }
 
-@media(max-width: 1053px) {
-    .logo {
-        font-size: 30px;
+@media(max-width: 576px) {
+    .image_photo {
+        width: 100%;
     }
 }
 
@@ -139,6 +137,55 @@
     }
 }
 
+@media (max-width: 414px) {
+    .card{
+        padding: 25px;
+    }
+
+    h2{
+        font-size: 1.15rem;
+    }
+
+    p{
+        font-size: 15px;
+    }
+    .image_photo {
+        width: 110%;
+    }
+
+}
+
+@media(max-width: 411px){
+    .test-net{
+        width: 80%;
+    }
+}
+
+@media(max-width: 375px) {
+    .image_photo {
+        width: 110%;
+    }
+    .card{
+        padding: 20px;
+    }
+    .it_team{
+        padding-bottom: 65px;
+    }
+    .quote{
+        padding: 35px;
+    }
+    h2{
+        font-size: 1.3rem;
+    }
+    .test-net{
+        width: 90%;
+    }
+
+    .tab{
+        height: 65%;
+    }
+}
+
 @media(max-width: 320px) {
     .logotype {
         height: 50px;
@@ -149,11 +196,11 @@
     }
 
     .card-text {
-        font-size: 10px;
+        font-size: 13px;
     }
 
     p {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .licens {
@@ -172,13 +219,13 @@
     .tab{
         display: grid;
     }
-}
 
-@media(max-width: 576px) {
-    .image_photo {
-        width: 100%;
+    .card{
+        padding: 15px;
     }
 }
+
+
 
 
 

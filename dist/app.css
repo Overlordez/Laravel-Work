@@ -10655,7 +10655,7 @@ body {
 section {
   position: relative;
   overflow: hidden;
-  padding-top: 55px;
+  padding-top: 45px;
 }
 
 h1 {
@@ -10774,6 +10774,105 @@ a:hover {
   font-family: "Hammersmith One", sans-serif;
 }
 
+.wrapper {
+  position: relative;
+  min-height: 100%;
+}
+
+.licens {
+  font-size: 20px;
+}
+
+.card-img-top {
+  width: 100%;
+  border-top-left-radius: calc(.25rem - 1px);
+  border-top-right-radius: calc(.25rem - 1px);
+}
+
+.card {
+  background-color: transparent;
+  padding: 50px;
+  border-bottom: 5px solid black;
+  border-top: 5px solid black;
+  border-left: none;
+  border-right: none;
+}
+
+.it_team {
+  padding: 10px;
+  padding-bottom: 90px;
+}
+
+.card-text {
+  font-size: 26px;
+  font-family: "Staatliches", cursive;
+}
+
+.image_photo {
+  width: 100%;
+}
+
+.nav {
+  height: 50px;
+}
+
+/* Style the tab */
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Style the buttons that are used to open the tab content */
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Style the tab content */
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.tabcontent {
+  -webkit-animation: fadeEffect 1s;
+          animation: fadeEffect 1s;
+  /* Fading effect takes 1 second */
+}
+
+.topright {
+  float: right;
+  cursor: pointer;
+  font-size: 28px;
+}
+
+.tabcontent {
+  text-align: center;
+}
+
+.test-net {
+  width: 70%;
+}
+
 #menu {
   position: fixed;
   flex-direction: column;
@@ -10789,7 +10888,7 @@ a:hover {
 
 #menu.show {
   display: flex;
-  background-color: rgba(255, 255, 255, 0.562);
+  background-color: white;
   transform: translateY(0);
 }
 
@@ -11045,95 +11144,20 @@ a:hover {
   }
 }
 
-/* Style the tab */
+@media (max-width: 1156px) {
+  .logo {
+    font-size: 40px;
+  }
 
-.tab {
-  overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
-  display: flex;
-  justify-content: space-around;
+  .licens {
+    font-size: 18px;
+  }
 }
 
-/* Style the buttons that are used to open the tab content */
-
-.tab button {
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-}
-
-/* Change background color of buttons on hover */
-
-.tab button:hover {
-  background-color: #ddd;
-}
-
-/* Style the tab content */
-
-.tabcontent {
-  display: none;
-  padding: 6px 12px;
-  border: 1px solid #ccc;
-  border-top: none;
-}
-
-.tabcontent {
-  -webkit-animation: fadeEffect 1s;
-          animation: fadeEffect 1s;
-  /* Fading effect takes 1 second */
-}
-
-.topright {
-  float: right;
-  cursor: pointer;
-  font-size: 28px;
-}
-
-.wrapper {
-  position: relative;
-  min-height: 100%;
-}
-
-.licens {
-  font-size: 20px;
-}
-
-.card-img-top {
-  width: 100%;
-  border-top-left-radius: calc(.25rem - 1px);
-  border-top-right-radius: calc(.25rem - 1px);
-}
-
-.card {
-  background-color: transparent;
-  padding: 50px;
-  border-bottom: 5px solid black;
-  border-top: 5px solid black;
-  border-left: none;
-  border-right: none;
-}
-
-.it_team {
-  padding: 10px;
-  padding-bottom: 90px;
-}
-
-.card-text {
-  font-size: 26px;
-  font-family: "Staatliches", cursive;
-}
-
-.image_photo {
-  width: 100%;
-}
-
-.nav {
-  height: 50px;
+@media (max-width: 1053px) {
+  .logo {
+    font-size: 30px;
+  }
 }
 
 @media (min-width: 991px) {
@@ -11155,7 +11179,7 @@ a:hover {
 
 @media (max-width: 991px) {
   .logotype {
-    height: 70;
+    height: 60;
   }
 
   .logo {
@@ -11167,7 +11191,7 @@ a:hover {
   }
 
   .card-text {
-    font-size: 15px;
+    font-size: 17px;
   }
 
   h1 {
@@ -11193,27 +11217,9 @@ a:hover {
   .tab {
     display: grid;
   }
-}
 
-@media (max-width: 375px) {
-  .image_photo {
-    width: 110%;
-  }
-}
-
-@media (max-width: 414px) {
-  .image_photo {
-    width: 110%;
-  }
-}
-
-@media (max-width: 1156px) {
-  .logo {
-    font-size: 40px;
-  }
-
-  .licens {
-    font-size: 18px;
+  .tab {
+    height: 50%;
   }
 }
 
@@ -11239,9 +11245,9 @@ a:hover {
   }
 }
 
-@media (max-width: 1053px) {
-  .logo {
-    font-size: 30px;
+@media (max-width: 576px) {
+  .image_photo {
+    width: 100%;
   }
 }
 
@@ -11275,6 +11281,60 @@ a:hover {
   }
 }
 
+@media (max-width: 414px) {
+  .card {
+    padding: 25px;
+  }
+
+  h2 {
+    font-size: 1.15rem;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .image_photo {
+    width: 110%;
+  }
+}
+
+@media (max-width: 411px) {
+  .test-net {
+    width: 80%;
+  }
+}
+
+@media (max-width: 375px) {
+  .image_photo {
+    width: 110%;
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  .it_team {
+    padding-bottom: 65px;
+  }
+
+  .quote {
+    padding: 35px;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  .test-net {
+    width: 90%;
+  }
+
+  .tab {
+    height: 65%;
+  }
+}
+
 @media (max-width: 320px) {
   .logotype {
     height: 50px;
@@ -11285,11 +11345,11 @@ a:hover {
   }
 
   .card-text {
-    font-size: 10px;
+    font-size: 13px;
   }
 
   p {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .licens {
@@ -11307,11 +11367,9 @@ a:hover {
   .tab {
     display: grid;
   }
-}
 
-@media (max-width: 576px) {
-  .image_photo {
-    width: 100%;
+  .card {
+    padding: 15px;
   }
 }
 
